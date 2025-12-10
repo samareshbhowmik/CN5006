@@ -1,0 +1,89 @@
+﻿:root {
+  font-family: system-ui, Arial, sans-serif;
+  color: #111;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.subtitle {
+  margin-top: -8px;
+  color: #555;
+  font-size: 14px;
+}
+
+.nav {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 16px 0 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  color: #222;
+  background: #fff;
+}
+
+.nav a.active {
+  background: #f2f2f2;
+  font-weight: 600;
+}
+
+.page {
+  padding-top: 6px;
+}
+
+.box {
+  display: grid;
+  gap: 10px;
+  max-width: 520px;
+  margin-bottom: 12px;
+}
+
+.box input,
+.box select,
+.box button {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.box button {
+  cursor: pointer;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.ok {
+  color: green;
+}
+
+.err {
+  color: #b00020;
+}
+
+.result {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  max-width: 520px;
+}
